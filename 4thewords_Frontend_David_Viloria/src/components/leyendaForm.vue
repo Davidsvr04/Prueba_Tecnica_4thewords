@@ -93,7 +93,6 @@ const guardarLeyenda = () => {
 </script>
 
 <style scoped>
-/* ----- ESTILOS GENERALES ----- */
 .leyenda-form {
   max-width: 500px;
   margin: 40px auto;
@@ -107,7 +106,6 @@ const guardarLeyenda = () => {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-/* ----- INPUTS Y TEXTAREA ----- */
 .form-group {
   margin-bottom: 20px;
 }
@@ -136,7 +134,6 @@ const guardarLeyenda = () => {
   resize: vertical;
 }
 
-/* Efecto de enfoque */
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: #6a11cb;
@@ -145,7 +142,6 @@ const guardarLeyenda = () => {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* ----- BOTÓN GUARDAR ----- */
 .btn-guardar {
   width: 100%;
   padding: 14px;
@@ -162,7 +158,6 @@ const guardarLeyenda = () => {
   box-shadow: 0 4px 10px rgba(106, 17, 203, 0.2);
 }
 
-/* Efecto hover y active */
 .btn-guardar:hover {
   background: linear-gradient(135deg, #5b0e9f, #1e63d4);
   transform: translateY(-2px);
@@ -174,7 +169,6 @@ const guardarLeyenda = () => {
   box-shadow: 0 2px 6px rgba(106, 17, 203, 0.2);
 }
 
-/* ----- EFECTOS RESPONSIVOS ----- */
 @media (max-width: 600px) {
   .leyenda-form {
     padding: 20px;
@@ -186,7 +180,6 @@ const guardarLeyenda = () => {
   }
 }
 
-/* ----- ANIMACIÓN DE ENTRADA ----- */
 @keyframes fadeIn {
   from {
     opacity: 0;
